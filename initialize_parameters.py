@@ -1,3 +1,6 @@
+import numpy as np
+from dnn_utils import sigmoid, sigmoid_backward, relu, relu_backward
+
 def initialize_parameters(layer_dims):
     """
     Arguments:
